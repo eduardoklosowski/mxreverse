@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ddd;
+  font-size: 2rem;
+  text-align: center;
+}
+
+a {
+  color: #444;
+}
+
+header {
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5rem;
+  text-shadow: .2rem .2rem .2rem #444;
+}
+
+form {
+  padding: 1rem;
+  border: 0.1rem solid #888;
+  background-color: #fff;
+}
+
+input[type=text] {
+  margin: .5rem;
+  padding: .5rem;
+  border: .1rem solid #888;
+}
+
+button {
+  margin: .5rem;
+  padding: .5rem;
+  border: .1rem solid #468;
+  background-color: #8ac;
+}
+
+.result {
+  padding: 1rem;
+  border: 0.1rem solid #888;
+  background-color: #fff;
+}
+
+.msg {
+  display: inline-block;
+  padding: 1rem;
+  border-width: .1rem;
+  border-style: solid;
+}
+
+.msg-ok {
+  border-color: #6a6;
+  background-color: #afa;
+}
+
+.msg-warning {
+  border-color: #aa6;
+  background-color: #ffa;
+}
+
+.msg-error {
+  border-color: #a66;
+  background-color: #faa;
+}
+
+.ipok {
+  color: #080;
+}
+
+.iperror {
+  color: #800;
+}
