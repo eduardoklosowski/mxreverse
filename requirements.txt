@@ -1,4 +1,4 @@
 dnspython==1.12.0
-gunicorn==19.1.1
+gunicorn==19.4.5
 whitenoise==3.0
 wsgiref==0.1.2
